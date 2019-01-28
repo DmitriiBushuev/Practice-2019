@@ -1,4 +1,5 @@
 # Practice-2019
-Web Development in C# and Microsoft .NET
+# Web Development in C# and Microsoft .NET
 ***
-# Dmitrii Bushuev
+## Practice repository at Epam Systems.
+###  by Dmitrii Bushuev
