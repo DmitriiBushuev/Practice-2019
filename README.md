@@ -7,4 +7,4 @@
 ***
 ### beginning of practice - January 2019
 ***
-### [Link to my solutions to external course assignments in Epam Systems Fall-Winter 2018.](https://github.com/DmitriiBushuev/.NET_2018_2_Dmitrii_Bushuev)
+### [Link to my solutions to external course tasks in Epam Systems Fall-Winter 2018.](https://github.com/DmitriiBushuev/.NET_2018_2_Dmitrii_Bushuev)
