@@ -1,0 +1,242 @@
+@font-face{
+  font-family: 'WebFont1';
+  src: url('Signika/Signika-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face{
+  font-family: 'WebFont2';
+  src: url('Signika/Signika-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'WebFont3';
+  src: url('Signika/Signika-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'WebFont4';
+  src: url('Signika/Signika-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'WebFont5';
+  src: url('Signika_Negative/SignikaNegative-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'WebFont6';
+  src: url('Signika_Negative/SignikaNegative-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'WebFont7';
+  src: url('Signika_Negative/SignikaNegative-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'WebFont8';
+  src: url('Signika_Negative/SignikaNegative-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  width: 1511px;
+  height: 1716px;
+
+  max-width: 1511px;
+  max-height: 1716px;
+  
+  font-size: 14px;
+  /* line-height: 1.5; */
+  font-family: "WebFont3", sans-serif;
+  color:black;
+  
+  background-color: #EAEDF1;
+}
+  
+.column{
+  background-color: white;
+  border:1px solid #EFF1F4;
+
+  box-sizing: border-box;
+}
+  
+.column1 { 
+  float: left;
+  width: 218px;
+  height: 296px;
+  background-color: white;
+  margin-left:81px;
+  margin-top: 83px;
+  margin-right:0px;
+}
+
+.column2 { 
+  float: left;
+  width: 218px;
+  height: 296px;
+  margin-top: 83px;
+  margin-left:-4px;
+  margin-right:88px;
+
+  font-size: 19px;
+  text-align: center;
+  padding-top:53px;
+}
+  
+.column3 {
+  float: left;
+  width: 479px;
+  height: 295px;
+  margin-top: 83px;
+  margin-right:0px;
+
+  padding-top: 53px;
+  padding-left: 33px;
+}
+
+.column4 {
+  float: left;
+  width: 347px;
+  height: 295px;
+  margin-top: 83px;
+  margin-left:0px;
+  margin-right:0px;
+
+  font-size: 19px;
+  text-align: center;
+  padding-top:110px;
+}
+  
+.column5 {
+  clear:both;
+  float : left;
+  margin-top: 36px;
+  margin-left: 83px;
+  width : 633px;
+  height: 339px;
+}
+
+.line{
+  position:absolute;
+  width:6px;
+  height:1138;
+  background-color: #DBE1E8;
+}
+  
+.column6 {
+  float : left;
+  width : 626px;
+  height: 170px;
+  background-color: #DBE1E8;
+  margin-left: 90px;
+  margin-top: 36px;
+  border:none;
+}
+  
+.column7 {
+  float : right;
+  width : 626px;
+  height: 170px;
+  margin-top: 32px;
+  margin-right: 77px;
+  background-color: #DBE1E8;
+  border:none;
+}
+  
+.column8 {
+  clear:both;
+  float : left;
+  width : 633px;
+  height: 320px;
+  margin-top: 0px;
+  margin-left: 81px;
+}
+  
+.column9 {
+  float : right;
+  width : 626px;
+  height: 127px;
+  margin-top: 71px;
+  margin-right: 77px;
+  background-color: #DBE1E8;
+  border:none;
+}
+  
+.column10 {
+  float : right;
+  width : 626px;
+  height: 130px;
+  margin-top: 32px;
+  margin-right: 77px;
+  background-color: #DBE1E8;
+  border:none;
+}
+  
+.column11 {
+  clear:both;
+  float : left;
+  width : 633px;
+  height: 170px;
+  margin-top: 0px;
+  margin-left: 81px;
+}
+
+.column12 {
+  float : right;
+  width : 626px;
+  height: 401px;
+  margin-top: 34px;
+  margin-right: 77px;
+}
+
+.column13 {
+  clear:both;
+  float : left;
+  width : 633px;
+  height: 170px;
+  margin-top: -236px;
+  margin-left: 81px;
+}
+  
+.footerColumn {
+  clear:both;
+  float: left;
+  width:595;
+  margin-top:56px;
+  margin-left:458px;
+}
+
+
+
+progress {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+
+/* progress::-webkit-progress-bar {
+  color: #9ca0a0;
+}
+
+progress::-webkit-progress-value {
+  color: #060474;
+} */
+  
