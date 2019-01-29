@@ -1,54 +1,54 @@
 @font-face{
-  font-family: 'WebFont1';
+  font-family: 'Signika-Bold';
   src: url('Signika/Signika-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   }
 
 @font-face{
-  font-family: 'WebFont2';
+  font-family: 'Signika-Light';
   src: url('Signika/Signika-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'WebFont3';
+  font-family: 'Signika-Regular';
   src: url('Signika/Signika-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'WebFont4';
+  font-family: 'Signika-SemiBold';
   src: url('Signika/Signika-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'WebFont5';
+  font-family: 'SignikaNegative-Bold';
   src: url('Signika_Negative/SignikaNegative-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'WebFont6';
+  font-family: 'SignikaNegative-Light';
   src: url('Signika_Negative/SignikaNegative-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'WebFont7';
+  font-family: 'SignikaNegative-Regular';
   src: url('Signika_Negative/SignikaNegative-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'WebFont8';
+  font-family: 'SignikaNegative-SemiBold';
   src: url('Signika_Negative/SignikaNegative-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -64,7 +64,7 @@ body {
   
   font-size: 14px;
   /* line-height: 1.5; */
-  font-family: "WebFont3", sans-serif;
+  font-family: "Signika-Regular", sans-serif;
   color:black;
   
   background-color: #EAEDF1;
@@ -77,7 +77,7 @@ body {
   box-sizing: border-box;
 }
   
-.column1 { 
+.columnAvatar { 
   float: left;
   width: 218px;
   height: 296px;
@@ -85,6 +85,9 @@ body {
   margin-left:81px;
   margin-top: 83px;
   margin-right:0px;
+
+  border:none;
+  background:url(pictures/undAvatar1.png) no-repeat center bottom white;
 }
 
 .column2 { 
@@ -92,36 +95,47 @@ body {
   width: 218px;
   height: 296px;
   margin-top: 83px;
-  margin-left:-4px;
+  margin-left:0px;
   margin-right:88px;
 
   font-size: 19px;
-  text-align: center;
-  padding-top:53px;
+  padding-top:51px;
+  border:none;
+
+  background:url(pictures/undAvatar2.png) no-repeat center bottom white;
 }
+
   
 .column3 {
+  font-family: "SignikaNegative-Regular", sans-serif;
+  
   float: left;
-  width: 479px;
+  width: 434px;
   height: 295px;
   margin-top: 83px;
   margin-right:0px;
 
   padding-top: 53px;
   padding-left: 33px;
+  border:none;
+
+  background:url(pictures/picLinks.png) no-repeat center bottom white;
 }
 
 .column4 {
+  font-family: "SignikaNegative-SemiBold", sans-serif;
+
   float: left;
-  width: 347px;
+  width: 389px;
   height: 295px;
   margin-top: 83px;
   margin-left:0px;
   margin-right:0px;
 
-  font-size: 19px;
+  font-size: 22px;
   text-align: center;
   padding-top:110px;
+  border:none;
 }
   
 .column5 {
@@ -131,6 +145,9 @@ body {
   margin-left: 83px;
   width : 633px;
   height: 339px;
+
+  padding-top:33px;
+  padding-left: 24px;
 }
 
 .line{
@@ -148,6 +165,9 @@ body {
   margin-left: 90px;
   margin-top: 36px;
   border:none;
+
+  padding-top:33px;
+  padding-left: 24px;
 }
   
 .column7 {
@@ -158,6 +178,9 @@ body {
   margin-right: 77px;
   background-color: #DBE1E8;
   border:none;
+
+  padding-top:35px;
+  padding-left: 25px;
 }
   
 .column8 {
@@ -167,6 +190,9 @@ body {
   height: 320px;
   margin-top: 0px;
   margin-left: 81px;
+
+  padding-top:32px;
+  padding-left: 24px;
 }
   
 .column9 {
@@ -177,6 +203,9 @@ body {
   margin-right: 77px;
   background-color: #DBE1E8;
   border:none;
+
+  padding-top:34px;
+  padding-left: 25px;
 }
   
 .column10 {
@@ -187,6 +216,9 @@ body {
   margin-right: 77px;
   background-color: #DBE1E8;
   border:none;
+
+  padding-top:33px;
+  padding-left: 26px;
 }
   
 .column11 {
@@ -196,14 +228,22 @@ body {
   height: 170px;
   margin-top: 0px;
   margin-left: 81px;
+
+  padding-top:34px;
+  padding-left: 24px;
 }
 
 .column12 {
+  background:url(pictures/picForProgressBar.png) no-repeat center top white;
+  
   float : right;
   width : 626px;
   height: 401px;
   margin-top: 34px;
   margin-right: 77px;
+
+  padding-top:166px;
+  padding-left: 24px;
 }
 
 .column13 {
@@ -213,6 +253,9 @@ body {
   height: 170px;
   margin-top: -236px;
   margin-left: 81px;
+
+  padding-top:33px;
+  padding-left: 26px;
 }
   
 .footerColumn {
@@ -221,14 +264,83 @@ body {
   width:595;
   margin-top:56px;
   margin-left:458px;
+
+  background-color: #EAEDF1;
+  color:#34495E;
+  border:none;
 }
 
+.imgFooter1{
+  margin-top:56px;
+  margin-left:458px;
+}
+
+.imgFooter2{
+  margin-top:56px;
+  margin-left:458px;
+}
+
+::-webkit-progress-value {
+  background: #10CDC1;
+  border: 1px solid #10CDC1;
+  border-radius: 10px;
+}
+::-webkit-progress-bar {
+  background:#DBE1E8;
+}
 
 
 progress {
-  background-color: #f3f3f3;
-  height: 18px;
-  border-radius: 9px;
+  display: inline-block;
+    color: red;
+    background: yellow;
+    border: 1px solid #DBE1E8;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 270px;
+    height: 16px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
 }
 
+.blueBtn{
+  height:39px;
+  width:217px;
+  background-color: #16C4EC;
+  color:white;
+  border-radius: 3px;
+  border:none;
+
+  display: block;
+  position: relative;
+  float: right;
+  margin-bottom: 21px;
+  margin-right:22px;
+}
+
+.grayBtn{
+  height:39px;
+  width:217px;
+  background-color: #B0BBCA;
+  color:white;
+  border-radius: 3px;
+  border:none;
+
+  display: block;
+  position: relative;
+  float: right;
+  margin-bottom: 21px;
+  margin-right:22px;
+}
+
+.hr1 {
+  position: absolute;
+  margin-top:807px;
+  margin-left:804px;
+  border: 0;
+  border-bottom: 2px dashed #EAEDF1;
+  }
  
