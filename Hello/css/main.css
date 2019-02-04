@@ -63,7 +63,6 @@ body {
   max-height: 1716px;
   
   font-size: 14px;
-  /* line-height: 1.5; */
   font-family: Signika-SemiBold serif;
   color:black;
 
@@ -250,7 +249,7 @@ body {
   margin-right: 77px;
 
   padding-top:166px;
-  padding-left: 24px;
+  padding-left: 0px;
 }
 
 .column13 {
@@ -330,28 +329,101 @@ body {
   align-self: center;
 }
 
-::-webkit-progress-value {
-  background: #10CDC1;
-  border: 1px solid #10CDC1;
-  border-radius: 10px;
-}
-::-webkit-progress-bar {
-  background:#DBE1E8;
-}
+
 
 
 progress {
   display: inline-block;
-    color: red;
-    background: yellow;
-    border: 1px solid #DBE1E8;
-    border-radius: 10px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 270px;
-    height: 16px;
-    line-height: 21px;
-    font-size: 15px;
-    font-family: sans-serif;
-    text-align: center;
+  /* color: red; */
+  background-color: #f3f3f3;
+  border: 1px solid #DBE1E8;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 270px;
+  height: 16px;
+  line-height: 21px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+progress::-webkit-progress-bar {
+  background:#DBE1E8;
+}
+
+progress::-webkit-progress-value {
+  background: #0ECCC0;
+  border-radius: 6px 0 0 6px;
+}
+
+.rightbar progress::-webkit-progress-value {
+  background: #16C4EC;
+}
+
+.block-progress {
+  width: 640px;
+  height:204px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+
+  justify-content: space-evenly;
+
+  font-size: 14px;
+}
+
+.block-progres-child {
+  width: 50%;
+  height:53px;
+}
+
+.progress-space1{
+  position: absolute;
+  margin-left: 135px;
+  margin-top:-7px;
+}
+
+.progress-space2{
+  position: absolute;
+  margin-left: 14px;
+  margin-top:-7px;
+}
+
+.progress-space3{
+  position: absolute;
+  margin-left: 73px;
+  margin-top:-7px;
+}
+
+.progress-space4{
+  position: absolute;
+  margin-left: 87px;
+  margin-top:-7px;
+}
+
+.progress-space5{
+  position: absolute;
+  margin-left: 175px;
+  margin-top:-7px;
+}
+
+.progress-space6{
+  position: absolute;
+  margin-left: 69px;
+  margin-top:-7px;
+}
+
+.progress-space7{
+  position: absolute;
+  margin-left: 147px;
+  margin-top:-7px;
+}
+
+.progress-space8{
+  position: absolute;
+  margin-left: 47px;
+  margin-top:-7px;
 }
