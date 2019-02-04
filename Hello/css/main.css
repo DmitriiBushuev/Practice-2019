@@ -365,7 +365,6 @@ progress::-webkit-progress-value {
 .block-progress {
   width: 640px;
   height:204px;
-
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
