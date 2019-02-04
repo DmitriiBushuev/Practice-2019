@@ -63,8 +63,8 @@ body {
   max-height: 1716px;
   
   font-size: 14px;
-  font-family: Signika-SemiBold serif;
   color:black;
+  font-family: sans-serif;
 
   background:url(pictures/verticalLine.png) no-repeat left 733px top 422px #EAEDF1;
 }
@@ -92,6 +92,7 @@ body {
 }
 
 .column2 { 
+  font-family: sans-serif;
   float: left;
   width: 218px;
   height: 296px;
@@ -109,7 +110,7 @@ body {
 
   
 .column3 {
-  font-family: "SignikaNegative-Regular", sans-serif;
+  font-family: sans-serif;
   line-height: 25px;
   float: left;
   width: 434px;
@@ -119,13 +120,13 @@ body {
 
   padding-top: 45px;
   padding-left: 32px;
+  padding-right: 5px;
   border:none;
 
   background:url(pictures/picLinks.png) no-repeat center bottom white;
 }
 
 .column4 {
-  font-family: "SignikaNegative-SemiBold", sans-serif;
   line-height: 45px;
   float: left;
   width: 389px;
@@ -141,7 +142,6 @@ body {
 }
   
 .column5 {
-  font-family: Signika-Regular serif;
   font-size: 11px;
   clear:both;
   float : left;
@@ -241,6 +241,7 @@ body {
 
 .column12 {
   background:url(pictures/picForProgressBar.png) no-repeat center top white;
+  font-family: serif;
   
   float : right;
   width : 626px;
