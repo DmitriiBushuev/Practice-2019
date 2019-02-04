@@ -10,4 +10,4 @@
 ### [Link to my solutions to external course tasks in Epam Systems Fall-Winter 2018.](https://github.com/DmitriiBushuev/.NET_2018_2_Dmitrii_Bushuev)
 
 + Tasks:
-  + 1. Create HomePage - folder "task 9"
+  + 1. Create HomePage - folder "Hello"
